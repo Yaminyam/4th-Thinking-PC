@@ -42,5 +42,4 @@
 스프라그-그런디 정리
 
 ### 만든이
-충남대학교 컴퓨터공학과 강시온 ([Yaminyam
-@GitHub](https://github.com/Yaminyam), [siontama@BOJ](https://www.acmicpc.net/user/siontama))
+충남대학교 컴퓨터공학과 강시온 ([Yaminyam@GitHub](https://github.com/Yaminyam), [siontama@BOJ](https://www.acmicpc.net/user/siontama))
