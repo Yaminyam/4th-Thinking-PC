@@ -81,9 +81,14 @@ def edgesToTree(n, edges):
 
 def solver():
     costs = []
-    N, M = [int(num) for num in input().split()]
-    for i in range(M):
-        s, e, cost = [int(num) for num in input().split()]
+    N, K = sys.stdin.readline().rsplit()
+    N = int(N)
+    K = int(K)
+    for i in range(K):
+        s, e, cost = sys.stdin.readline().rsplit()
+        s = int(s)
+        e = int(e)
+        cost = int(cost)
         costs.append([s, e, cost])
     mst, cost = getMST(N, costs)
     tree = edgesToTree(N, mst)
