@@ -67,4 +67,4 @@
 DP
 
 ### 만든이
-충남대학교 컴퓨터공학과 정지수 ([Jeesu-Jung@GitHub](https://github.com/Jeesu-Jung), [willook@BOJ](https://www.acmicpc.net/user/bluedao
+충남대학교 컴퓨터공학과 정지수 ([Jeesu-Jung@GitHub](https://github.com/Jeesu-Jung), [bluedao@BOJ](https://www.acmicpc.net/user/bluedao
