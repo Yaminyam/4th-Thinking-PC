@@ -1,5 +1,7 @@
 # 4th-Thinking-PC
 
+![image](https://user-images.githubusercontent.com/31057849/93046674-65668900-f695-11ea-97ce-2eee00b78e68.png)
+
 - 대회 이름: 제4회 생각하는 프로그래밍 대회
 - 대회 주최자: 충남대학교 알고리즘 동아리 AnA
 - 대회의 공개/비공개: 비공개대회
