@@ -17,5 +17,9 @@
   4. 대회 외부 검수자:isku, amok, sait2000
 
 - 후원
-Startlink
+
+- [Startlink](https://startlink.io/)
 ![image](https://user-images.githubusercontent.com/31057849/93046607-30f2cd00-f695-11ea-83d0-611b0063b5e2.png)
+- 충남대학교 컴퓨터공학과 동아리 A&A
+- 국방ICT융합인력양성사업단
+- 핀테크보안연구센터
