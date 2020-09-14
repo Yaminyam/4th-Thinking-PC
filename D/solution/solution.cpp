@@ -5,8 +5,8 @@
 #define INF 987654321;
 using namespace std;
 int N, M, X, Y;
-int Dist[501];//우리집에서 이웃집 까지의 거리
-vector<pair<int, int>> v[501];//pair<b,거리>[a]
+int Dist[1001];//우리집에서 이웃집 까지의 거리
+vector<pair<int, int>> v[1001];//pair<b,거리>[a]
 priority_queue<pair<int, int>> pq;//pair< 가중치와 현재 집 위치 
 int main() {
 	scanf("%d %d %d %d", &N, &M, &X, &Y);
@@ -17,7 +17,7 @@ int main() {
 		v[b].push_back(make_pair(a, len));
 	}
 	//다익스트라
-	for (int i = 0; i < 501; i++) {
+	for (int i = 0; i < 1001; i++) {
 		Dist[i] = INF;
 	}
 	Dist[Y] = 0;
@@ -35,7 +35,7 @@ int main() {
 			}
 		}
 	}
-	sort(Dist, Dist + 501);
+	sort(Dist, Dist + 1001);
 	for (int i = 0; i < N; i++) {
 		Dist[i] *= 2;//왕복이므로
 	}
