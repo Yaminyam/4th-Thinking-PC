@@ -48,7 +48,7 @@ public class solution {
             String man = iter.next();
             sb.append(man + " " + manPartner.get(man)).append("\n");
         }
-        System.out.println(sb);
+        System.out.print(sb);
 
     }
     public static void main(String[] args) throws IOException {
