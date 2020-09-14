@@ -38,15 +38,15 @@ public class Main {
                         else {
                             int DataToAdd = 0;
                             DataToAdd += dataSet[row + index][col + index];
-                            for (int pos = 1; pos < index + 1; pos++)
-                                DataToAdd += dataSet[row+pos][col];
+                            for (int pos = 0; pos < index; pos++)
+                                DataToAdd += dataSet[row+pos][col+index];
 
-                            for (int pos = 1; pos < index + 1; pos++)
-                                DataToAdd += dataSet[row][col+pos];
+                            for (int pos = 0; pos < index; pos++)
+                                DataToAdd += dataSet[row+index][col+pos];
 
                             maxOfData[index] = maxOfData[index - 1] + DataToAdd;
+                            if (max < maxOfData[index]) max = maxOfData[index];
                         }
-                        if (max < maxOfData[index]) max = maxOfData[index];
                     }
                 }
             }//col
