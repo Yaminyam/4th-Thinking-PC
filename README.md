@@ -18,8 +18,8 @@
 
 - 후원
 
-- [Startlink](https://startlink.io/)
+  1. [Startlink](https://startlink.io/)
 ![image](https://user-images.githubusercontent.com/31057849/93046607-30f2cd00-f695-11ea-83d0-611b0063b5e2.png)
-- 충남대학교 컴퓨터공학과 동아리 A&A
-- 국방ICT융합인력양성사업단
-- 핀테크보안연구센터
+  2. 충남대학교 컴퓨터공학과 동아리 A&A
+  3. 국방ICT융합인력양성사업단
+  4. 핀테크보안연구센터
