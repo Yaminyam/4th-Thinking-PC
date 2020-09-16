@@ -14,44 +14,30 @@ public class Main {
         int[][] dataSet = new int[n][n];
 
         for (int row = 0; row < n; row++) {
+            int data = 0;
             input = br.readLine();
             st = new StringTokenizer(input);
             for (int col = 0; col < n; col++) {
-                dataSet[row][col] = Integer.parseInt(st.nextToken());
+                data += Integer.parseInt(st.nextToken());
+                dataSet[row][col] = data;
             }
         }
 
-        int maxIndex = n - 1;
-        for (int row = 0; row < n; row++) {
-            for (int col = 0; col < n; col++) {
+        int[][] sumOfData = new int[n+1][n+1];
+        for (int row = 1; row < n + 1; row++) {
+            for (int col = 1; col < n + 1; col++) {
+                sumOfData[row][col] = sumOfData[row - 1][col] + dataSet[row-1][col-1];
+            }
+        }
 
-                if (row == maxIndex || col == maxIndex) {
-                    if (max < dataSet[row][col]) max = dataSet[row][col];
-                } else { //n회
-                    int[] maxOfData = new int[n];
-                    maxOfData[0] = dataSet[row][col];
-                    if (max < maxOfData[0]) max = maxOfData[0];
-
-                    for (int index = 1; index < n; index++) {
-                        if (((row + index) > maxIndex) || ((col + index) > maxIndex))
-                            break;
-                        else {
-                            int DataToAdd = 0;
-                            DataToAdd += dataSet[row + index][col + index];
-                            for (int pos = 0; pos < index; pos++)
-                                DataToAdd += dataSet[row+pos][col+index];
-
-                            for (int pos = 0; pos < index; pos++)
-                                DataToAdd += dataSet[row+index][col+pos];
-
-                            maxOfData[index] = maxOfData[index - 1] + DataToAdd;
-                            if (max < maxOfData[index]) max = maxOfData[index];
-                        }
-                    }
+        for (int row = 1; row < n + 1; row++) {
+            for (int col = 1; col < n + 1; col++) {
+                for (int rate = 1; (row - rate >= 0) && (col - rate >= 0); rate++) {
+                    int value = sumOfData[row][col] - sumOfData[row - rate][col] - sumOfData[row][col - rate] + sumOfData[row - rate][col - rate];
+                    if (value > max) max = value;
                 }
-            }//col
-        }//row
+            }
+        }
         System.out.print(max);
     }
-
 }
