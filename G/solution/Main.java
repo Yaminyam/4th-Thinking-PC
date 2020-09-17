@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 public class Main {
@@ -16,7 +14,6 @@ public class Main {
         }
         int timeCount = 0;
         while (mobHp > 0) {
-            reduceRemainTimeAll(userState);
             Collections.sort(userState);
             Skill skill = userState.peek();
             if (skill.getRemainTime() == 0) {
@@ -24,6 +21,7 @@ public class Main {
                 mobHp -= skill.useSkill();
                 userState.add(skill);
             }
+            reduceRemainTimeAll(userState);
             timeCount++;
         }
         System.out.println(timeCount);
