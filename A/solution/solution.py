@@ -24,9 +24,12 @@ length = input()
 bunja = []
 bunmo = []
 for i in range(int(length)):
-    num = input().split(" ") 
-    bunja.append(int(num[0]))
-    bunmo.append(int(num[1]))
+    num = input().split(" ")
+    a = int(num[0])
+    b = int(num[1])
+    ab_gcd = gcd(a, b)
+    bunja.append(a / ab_gcd)
+    bunmo.append(b / ab_gcd)
 
 numerator = get_LCM(bunmo)
 denominator = get_GCD(bunja)

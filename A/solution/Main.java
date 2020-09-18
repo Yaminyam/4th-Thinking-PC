@@ -10,8 +10,11 @@ public class Main {
         long[] denominators = new long[N]; // 분모
         for (int i = 0; i < N; i++) {
             String[] tc = br.readLine().split(" ");
-            numerators[i] = Long.parseLong(tc[0]);
-            denominators[i] = Long.parseLong(tc[1]);
+            long a = Long.parseLong(tc[0]);
+            long b = Long.parseLong(tc[1]);
+            long gcd = getGCD(a, b);
+            numerators[i] = a / gcd;
+            denominators[i] = b / gcd;
         }
         long resultNumerator = getLCM(denominators);
         long resultDenominator = getGCD(numerators);
