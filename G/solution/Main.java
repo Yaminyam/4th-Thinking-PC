@@ -2,82 +2,66 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
+    static int minTime = Integer.MAX_VALUE;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] tc = br.readLine().split(" ");
         int skillNum = Integer.parseInt(tc[0]);
         int mobHp = Integer.parseInt(tc[1]);
-        LinkedList<Skill> userState = new LinkedList<>();
+        int[] skillCooldownArr = new int[skillNum];
+        int[] remainTimeArr = new int[skillNum];
+        int[] dpsArr = new int[skillNum];
         for (int i = 0; i < skillNum; i++) {
-            String[] skillInfo = br.readLine().split(" ");
-            userState.add(new Skill(Integer.parseInt(skillInfo[0]), Integer.parseInt(skillInfo[1]), 0));
+            String[] skill = br.readLine().split(" ");
+            skillCooldownArr[i] = Integer.parseInt(skill[0]);
+            dpsArr[i] = Integer.parseInt(skill[1]);
         }
-        int timeCount = 0;
-        while (mobHp > 0) {
-            Collections.sort(userState);
-            Skill skill = userState.peek();
-            if (skill.getRemainTime() == 0) {
-                skill = userState.poll();
-                mobHp -= skill.useSkill();
-                userState.add(skill);
-            }
-            reduceRemainTimeAll(userState);
-            timeCount++;
+        dfs(0, skillCooldownArr, remainTimeArr, dpsArr, skillNum, mobHp);
+        System.out.println(minTime);
+    }
+
+    public static void dfs(int time, int[] skillCooldownArr, int[] remainTimeArr, int[] dpsArr, int skillNum, int mobHp) {
+        if (time > minTime) {
+            return;
         }
-        System.out.println(timeCount);
-    }
-
-    public static void reduceRemainTimeAll(LinkedList<Skill> userState) {
-        for (Skill skill : userState) {
-            skill.reduceRemainTime();
+        if (skillNum == 1 && minTime != Integer.MAX_VALUE) {
+            return;
         }
-    }
-}
-
-class Skill implements Comparable<Skill> {
-    private int dps;
-    private int remainTime;
-    private int cooldown;
-
-    public int getDps() {
-        return dps;
-    }
-
-    public int getRemainTime() {
-        return remainTime;
-    }
-
-    public int useSkill() {
-        this.remainTime = cooldown;
-        return dps;
-    }
-
-    public void reduceRemainTime() {
-        if (remainTime > 0) {
-            this.remainTime--;
+        if (mobHp <= 0) {
+            minTime = Math.min(time, minTime);
+            return;
         }
-    }
-
-    public Skill(int cooldown, int dps, int remainTime) {
-        this.cooldown = cooldown;
-        this.dps = dps;
-        this.remainTime = remainTime;
-    }
-
-    @Override
-    public int compareTo(Skill o) {
-        if (this.remainTime < o.getRemainTime()) {
-            return -1;
-        } else if (this.remainTime == o.getRemainTime()) {
-            if (this.dps < o.getDps()) {
-                return 1;
-            } else if (this.dps == o.getDps()) {
-                return 0;
+        boolean isNextAvail = false;
+        int minNext = Integer.MAX_VALUE;
+        for (int i = 0; i < skillNum; i++) {
+            if (remainTimeArr[i] == 0) {
+                isNextAvail = true;
+                int[] nextRemainTime = Arrays.copyOf(remainTimeArr, skillNum);
+                nextRemainTime[i] = skillCooldownArr[i];
+                reduceRemainTime(nextRemainTime, 1, skillNum);
+                dfs(time + 1, skillCooldownArr, nextRemainTime, dpsArr, skillNum, mobHp - dpsArr[i]);
             } else {
-                return -1;
+                minNext = Math.min(minNext, remainTimeArr[i]);
             }
+        }
+        if (!isNextAvail) {
+            int[] nextRemainTime = Arrays.copyOf(remainTimeArr, skillNum);
+            reduceRemainTime(nextRemainTime, minNext, skillNum);
+            dfs(time + minNext, skillCooldownArr, nextRemainTime, dpsArr, skillNum, mobHp);
         } else {
-            return 1;
+            int[] nextRemainTime = Arrays.copyOf(remainTimeArr, skillNum);
+            reduceRemainTime(nextRemainTime, 1, skillNum);
+            dfs(time + 1, skillCooldownArr, nextRemainTime, dpsArr, skillNum, mobHp);
+        }
+    }
+
+    public static void reduceRemainTime(int[] remainTime, int time, int skillNum) {
+        for (int j = 0; j < skillNum; j++) {
+            remainTime[j] -= time;
+            if (remainTime[j] < 0) {
+                remainTime[j] = 0;
+            }
         }
     }
 }
