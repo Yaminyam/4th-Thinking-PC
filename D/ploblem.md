@@ -47,4 +47,4 @@
 다익스트라
 
 ### 만든이
-충남대학교 컴퓨터공학과 이종화 ([willook@GitHub](https://github.com/willook), [willook@BOJ](https://www.acmicpc.net/user/willook))
+충남대학교 컴퓨터공학과 강시온 ([Yaminyam@GitHub](https://github.com/Yaminyam), [siontama@BOJ](https://www.acmicpc.net/user/siontama))
