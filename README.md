@@ -23,3 +23,9 @@
   2. 충남대학교 컴퓨터공학과 동아리 A&A
   3. 융합보안연구센터
   4. 핀테크보안연구센터
+
+- 수상
+대상 : kangwlgns
+금상 : zxzxs112, nub8p
+은상 : kkm1447, blessmealways00, apjojeongjin
+동상 : ays0321,	suminwow1, rantyn1121, thdud4869
