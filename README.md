@@ -16,6 +16,8 @@
   3. 대회 내부 검수자: protoseo, shinwoon, b5460881, willook
   4. 대회 외부 검수자:isku, amok, sait2000
 
+- 문제 풀이(https://www.miricanvas.com/v/145qqy)
+
 - 후원
 
   1. [Startlink](https://startlink.io/)
