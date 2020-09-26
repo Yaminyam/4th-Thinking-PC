@@ -1,53 +1,5 @@
-25
-man0 man1 man2 man3 man4 man5 man6 man7 man8 man9 man10 man11 man12 man13 man14 man15 man16 man17 man18 man19 man20 man21 man22 man23 man24 
-woman0 woman1 woman2 woman3 woman4 woman5 woman6 woman7 woman8 woman9 woman10 woman11 woman12 woman13 woman14 woman15 woman16 woman17 woman18 woman19 woman20 woman21 woman22 woman23 woman24 
-man0 woman3 woman24 woman0 woman16 woman22 woman20 woman15 woman1 woman5 woman12 woman7 woman10 woman13 woman11 woman2 woman18 woman4 woman14 woman21 woman17 woman6 woman8 woman19 woman23 woman9 
-man1 woman7 woman13 woman18 woman8 woman10 woman14 woman4 woman11 woman12 woman3 woman16 woman19 woman5 woman17 woman0 woman1 woman20 woman24 woman21 woman6 woman23 woman15 woman2 woman9 woman22 
-man2 woman17 woman22 woman16 woman15 woman5 woman13 woman6 woman11 woman18 woman3 woman1 woman14 woman20 woman10 woman12 woman7 woman8 woman19 woman0 woman23 woman24 woman4 woman2 woman21 woman9 
-man3 woman22 woman24 woman12 woman1 woman23 woman9 woman13 woman7 woman8 woman14 woman3 woman2 woman5 woman6 woman17 woman0 woman18 woman10 woman20 woman21 woman15 woman16 woman19 woman11 woman4 
-man4 woman19 woman10 woman11 woman9 woman23 woman0 woman18 woman17 woman1 woman13 woman24 woman20 woman15 woman4 woman8 woman22 woman21 woman6 woman2 woman5 woman3 woman14 woman12 woman7 woman16 
-man5 woman11 woman5 woman1 woman2 woman9 woman15 woman13 woman0 woman18 woman19 woman3 woman20 woman17 woman12 woman23 woman16 woman22 woman21 woman6 woman4 woman7 woman24 woman10 woman14 woman8 
-man6 woman15 woman17 woman9 woman16 woman6 woman5 woman24 woman20 woman18 woman1 woman22 woman12 woman14 woman11 woman10 woman7 woman21 woman3 woman8 woman13 woman4 woman2 woman19 woman0 woman23 
-man7 woman10 woman7 woman20 woman21 woman15 woman23 woman9 woman1 woman18 woman0 woman22 woman12 woman17 woman6 woman14 woman19 woman24 woman16 woman5 woman2 woman3 woman4 woman13 woman8 woman11 
-man8 woman3 woman6 woman20 woman12 woman23 woman14 woman5 woman10 woman4 woman7 woman21 woman9 woman1 woman22 woman13 woman16 woman18 woman15 woman2 woman17 woman19 woman11 woman0 woman24 woman8 
-man9 woman18 woman24 woman10 woman4 woman13 woman7 woman22 woman17 woman9 woman8 woman16 woman15 woman12 woman19 woman14 woman0 woman2 woman3 woman20 woman21 woman11 woman6 woman23 woman5 woman1 
-man10 woman6 woman19 woman5 woman1 woman18 woman4 woman21 woman0 woman23 woman2 woman7 woman22 woman11 woman20 woman12 woman16 woman3 woman9 woman15 woman13 woman17 woman10 woman8 woman14 woman24 
-man11 woman17 woman18 woman10 woman1 woman16 woman22 woman9 woman23 woman24 woman3 woman8 woman21 woman13 woman11 woman19 woman6 woman12 woman5 woman15 woman4 woman20 woman0 woman2 woman7 woman14 
-man12 woman7 woman5 woman13 woman0 woman18 woman3 woman9 woman6 woman19 woman11 woman23 woman1 woman16 woman14 woman2 woman8 woman20 woman12 woman15 woman24 woman21 woman10 woman4 woman17 woman22 
-man13 woman4 woman6 woman17 woman20 woman2 woman10 woman24 woman18 woman16 woman1 woman9 woman8 woman7 woman11 woman0 woman14 woman5 woman12 woman3 woman23 woman19 woman21 woman13 woman15 woman22 
-man14 woman11 woman20 woman10 woman13 woman23 woman15 woman8 woman4 woman19 woman3 woman17 woman7 woman22 woman1 woman21 woman6 woman0 woman5 woman12 woman14 woman9 woman2 woman24 woman16 woman18 
-man15 woman22 woman20 woman18 woman8 woman12 woman6 woman1 woman13 woman7 woman19 woman0 woman10 woman11 woman14 woman23 woman15 woman21 woman3 woman17 woman16 woman5 woman4 woman9 woman24 woman2 
-man16 woman12 woman23 woman11 woman15 woman6 woman9 woman7 woman17 woman5 woman4 woman20 woman2 woman24 woman18 woman8 woman13 woman21 woman16 woman3 woman22 woman14 woman0 woman19 woman1 woman10 
-man17 woman18 woman10 woman15 woman24 woman11 woman21 woman12 woman14 woman2 woman22 woman6 woman17 woman5 woman19 woman9 woman7 woman23 woman0 woman3 woman8 woman4 woman20 woman16 woman1 woman13 
-man18 woman20 woman7 woman19 woman14 woman13 woman1 woman5 woman10 woman9 woman15 woman6 woman23 woman22 woman21 woman12 woman17 woman4 woman0 woman3 woman16 woman24 woman18 woman8 woman11 woman2 
-man19 woman11 woman13 woman2 woman9 woman3 woman15 woman23 woman8 woman24 woman16 woman19 woman0 woman14 woman1 woman5 woman17 woman20 woman18 woman21 woman10 woman12 woman22 woman6 woman7 woman4 
-man20 woman8 woman2 woman10 woman18 woman14 woman4 woman17 woman0 woman7 woman19 woman21 woman9 woman11 woman1 woman22 woman6 woman15 woman3 woman16 woman23 woman12 woman13 woman5 woman20 woman24 
-man21 woman6 woman12 woman4 woman17 woman7 woman1 woman21 woman0 woman22 woman11 woman8 woman3 woman18 woman14 woman10 woman23 woman5 woman20 woman13 woman16 woman15 woman2 woman19 woman24 woman9 
-man22 woman10 woman16 woman17 woman3 woman15 woman18 woman1 woman6 woman5 woman9 woman21 woman23 woman2 woman14 woman19 woman8 woman12 woman20 woman13 woman22 woman7 woman4 woman11 woman0 woman24 
-man23 woman16 woman9 woman23 woman19 woman5 woman6 woman24 woman0 woman3 woman18 woman11 woman2 woman20 woman22 woman12 woman10 woman17 woman13 woman14 woman8 woman7 woman21 woman1 woman15 woman4 
-man24 woman24 woman18 woman4 woman2 woman23 woman5 woman19 woman21 woman9 woman20 woman6 woman14 woman12 woman8 woman0 woman11 woman13 woman17 woman3 woman1 woman10 woman22 woman15 woman7 woman16 
-woman24 man2 man20 man1 man3 man18 man14 man21 man9 man5 man7 man17 man13 man24 man19 man6 man8 man11 man10 man22 man15 man12 man0 man4 man16 man23 
-woman18 man10 man4 man21 man15 man6 man7 man9 man5 man14 man17 man0 man2 man8 man24 man20 man19 man23 man16 man3 man13 man11 man22 man12 man1 man18 
-woman4 man12 man19 man23 man17 man18 man16 man10 man4 man3 man15 man22 man13 man1 man9 man20 man21 man5 man11 man14 man8 man6 man7 man0 man2 man24 
-woman2 man13 man11 man20 man5 man6 man9 man16 man15 man23 man2 man1 man7 man0 man24 man21 man17 man18 man14 man8 man3 man19 man12 man22 man4 man10 
-woman23 man18 man7 man4 man22 man0 man23 man12 man17 man10 man5 man6 man21 man24 man3 man9 man11 man19 man20 man1 man8 man13 man14 man15 man16 man2 
-woman5 man19 man6 man22 man2 man13 man15 man17 man18 man14 man7 man1 man4 man10 man11 man9 man0 man16 man23 man12 man5 man24 man8 man3 man20 man21 
-woman19 man10 man3 man17 man11 man7 man2 man6 man20 man18 man15 man16 man13 man5 man24 man0 man19 man14 man9 man12 man4 man21 man22 man8 man23 man1 
-woman21 man24 man8 man12 man23 man3 man17 man20 man11 man7 man2 man5 man18 man10 man1 man6 man22 man13 man0 man15 man14 man21 man4 man19 man16 man9 
-woman9 man10 man5 man14 man2 man13 man18 man4 man20 man23 man11 man7 man16 man21 man9 man0 man15 man6 man22 man8 man12 man1 man24 man19 man3 man17 
-woman20 man6 man18 man19 man8 man17 man0 man15 man10 man3 man24 man9 man1 man22 man21 man2 man20 man4 man11 man23 man16 man13 man12 man5 man14 man7 
-woman6 man20 man12 man21 man14 man8 man2 man1 man9 man4 man22 man23 man3 man7 man6 man18 man11 man24 man0 man19 man16 man13 man17 man15 man10 man5 
-woman14 man10 man15 man18 man12 man3 man8 man22 man0 man14 man19 man5 man2 man7 man9 man24 man23 man16 man21 man11 man6 man20 man4 man17 man1 man13 
-woman12 man21 man4 man16 man2 man11 man14 man10 man7 man5 man15 man3 man18 man1 man24 man19 man9 man6 man22 man17 man20 man23 man0 man13 man12 man8 
-woman8 man9 man7 man16 man2 man5 man6 man0 man18 man12 man1 man22 man3 man21 man19 man24 man4 man13 man17 man10 man8 man15 man14 man20 man23 man11 
-woman0 man2 man13 man10 man3 man23 man8 man5 man7 man12 man24 man18 man6 man21 man20 man17 man14 man4 man15 man1 man9 man16 man22 man19 man0 man11 
-woman11 man7 man4 man0 man9 man22 man10 man15 man11 man14 man24 man2 man23 man19 man1 man12 man8 man16 man21 man17 man13 man3 man20 man18 man5 man6 
-woman13 man1 man19 man13 man17 man21 man14 man0 man6 man4 man8 man15 man7 man2 man18 man5 man24 man16 man10 man9 man3 man12 man23 man20 man11 man22 
-woman17 man12 man22 man18 man4 man15 man2 man23 man7 man16 man9 man0 man21 man1 man20 man5 man3 man6 man11 man13 man14 man8 man17 man24 man19 man10 
-woman3 man9 man8 man21 man0 man23 man22 man2 man24 man15 man11 man16 man5 man4 man18 man12 man1 man19 man3 man6 man13 man17 man10 man7 man20 man14 
-woman1 man24 man15 man6 man0 man3 man20 man9 man16 man5 man17 man4 man8 man2 man10 man7 man19 man21 man13 man12 man23 man11 man14 man18 man22 man1 
-woman10 man6 man20 man16 man11 man1 man10 man3 man8 man7 man17 man18 man22 man24 man4 man21 man12 man5 man19 man14 man13 man0 man23 man9 man15 man2 
-woman22 man19 man7 man12 man24 man6 man14 man3 man22 man11 man23 man20 man9 man2 man1 man10 man13 man21 man17 man0 man5 man15 man4 man18 man8 man16 
-woman15 man16 man19 man11 man20 man6 man12 man3 man10 man0 man2 man14 man4 man1 man8 man5 man7 man24 man22 man15 man21 man13 man9 man23 man18 man17 
-woman7 man15 man20 man2 man7 man1 man18 man4 man6 man23 man17 man16 man21 man9 man22 man5 man13 man11 man8 man14 man0 man10 man24 man3 man12 man19 
-woman16 man14 man15 man10 man9 man16 man11 man7 man18 man21 man2 man1 man17 man0 man24 man19 man13 man5 man8 man6 man4 man23 man22 man20 man3 man12 
+4 79600
+9 8832
+5 12015
+3 25335
+7 24101

@@ -1,13 +1,4 @@
-5
-man0 man1 man2 man3 man4 
-woman0 woman1 woman2 woman3 woman4 
-man0 woman0 woman3 woman2 woman1 woman4 
-man1 woman1 woman0 woman2 woman4 woman3 
-man2 woman2 woman1 woman3 woman4 woman0 
-man3 woman1 woman3 woman2 woman4 woman0 
-man4 woman4 woman2 woman1 woman0 woman3 
-woman4 man2 man0 man3 man4 man1 
-woman2 man4 man3 man0 man2 man1 
-woman1 man2 man1 man3 man0 man4 
-woman0 man0 man2 man1 man4 man3 
-woman3 man0 man3 man4 man1 man2 
+3 69002
+2 30564
+6 11731
+0 9671

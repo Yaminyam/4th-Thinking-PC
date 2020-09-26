@@ -1,36 +1,19 @@
-def gcd(a,b):
-    """Compute the greatest common divisor of a and b"""
-    while b > 0:
-        a, b = b, a % b
-    return a
-    
-def lcm(a, b):
-    """Compute the lowest common multiple of a and b"""
-    return a * b / gcd(a, b)
+import sys
 
-def get_GCD(nums):
-    _gcd = nums[0]
-    for n in nums[1:]:
-        _gcd = gcd(_gcd, n)
-    return _gcd
+start = sys.stdin.readline()
+stack = []
+answer = ['고무오리야 사랑해', '힝구']
 
-def get_LCM(nums):
-    _lcm = nums[0]
-    for n in nums[1:]:
-        _lcm = int(_lcm*n / gcd(_lcm, n))
-    return _lcm
+while True:
+    command = sys.stdin.readline()
+    if command == '고무오리 디버깅 끝':
+        break
+    if command == '문제':
+        stack.append(0)
+    elif command == '고무오리':
+        if len(stack):
+            stack.pop()
+        else:
+            stack += [0, 0]
 
-length = input()
-bunja = []
-bunmo = []
-for i in range(int(length)):
-    num = input().split(" ")
-    a = int(num[0])
-    b = int(num[1])
-    ab_gcd = gcd(a, b)
-    bunja.append(a / ab_gcd)
-    bunmo.append(b / ab_gcd)
-
-numerator = get_LCM(bunmo)
-denominator = get_GCD(bunja)
-print(str(int(denominator))+" "+str(int(numerator)))
+print(answer[1 if len(stack) else 0])

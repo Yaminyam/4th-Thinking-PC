@@ -1,15 +1,4 @@
-6
-man0 man1 man2 man3 man4 man5 
-woman0 woman1 woman2 woman3 woman4 woman5 
-man0 woman3 woman1 woman4 woman0 woman2 woman5 
-man1 woman1 woman5 woman4 woman0 woman2 woman3 
-man2 woman4 woman2 woman0 woman1 woman3 woman5 
-man3 woman0 woman3 woman2 woman1 woman5 woman4 
-man4 woman4 woman1 woman3 woman2 woman5 woman0 
-man5 woman0 woman4 woman1 woman5 woman2 woman3 
-woman0 man2 man5 man4 man3 man1 man0 
-woman4 man5 man4 man3 man2 man0 man1 
-woman1 man3 man4 man2 man5 man1 man0 
-woman5 man5 man3 man4 man2 man0 man1 
-woman2 man1 man2 man3 man4 man5 man0 
-woman3 man5 man0 man1 man4 man2 man3 
+3 32968
+0 6590
+3 7896
+9 7538

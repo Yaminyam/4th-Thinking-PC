@@ -1,1 +1,6 @@
-9
+man0 woman2
+man1 woman3
+man2 woman1
+man3 woman4
+man4 woman0
+man5 woman5

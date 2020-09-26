@@ -1,9 +1,5 @@
-3
-man0 man1 man2 
-woman0 woman1 woman2 
-man0 woman2 woman0 woman1 
-man1 woman2 woman0 woman1 
-man2 woman2 woman1 woman0 
-woman2 man0 man2 man1 
-woman1 man0 man1 man2 
-woman0 man2 man1 man0 
+4 3086
+2 334
+7 655
+10 756
+8 1234

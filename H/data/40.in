@@ -1,15 +1,6 @@
-6
-man0 man1 man2 man3 man4 man5 
-woman0 woman1 woman2 woman3 woman4 woman5 
-man0 woman0 woman2 woman4 woman1 woman3 woman5 
-man1 woman3 woman0 woman5 woman1 woman2 woman4 
-man2 woman1 woman5 woman2 woman4 woman3 woman0 
-man3 woman4 woman2 woman3 woman1 woman5 woman0 
-man4 woman0 woman5 woman1 woman2 woman3 woman4 
-man5 woman3 woman5 woman1 woman4 woman2 woman0 
-woman3 man3 man1 man2 man5 man0 man4 
-woman5 man3 man1 man4 man2 man5 man0 
-woman1 man4 man3 man1 man0 man5 man2 
-woman4 man4 man5 man2 man3 man1 man0 
-woman2 man3 man1 man5 man2 man0 man4 
-woman0 man5 man2 man4 man0 man1 man3 
+5 75475
+7 22704
+4 10693
+0 11950
+8 9250
+9 13814

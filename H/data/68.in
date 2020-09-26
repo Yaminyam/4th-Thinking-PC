@@ -1,15 +1,5 @@
-6
-man0 man1 man2 man3 man4 man5 
-woman0 woman1 woman2 woman3 woman4 woman5 
-man0 woman0 woman1 woman5 woman2 woman3 woman4 
-man1 woman4 woman0 woman5 woman3 woman2 woman1 
-man2 woman5 woman3 woman0 woman2 woman1 woman4 
-man3 woman2 woman3 woman5 woman1 woman0 woman4 
-man4 woman0 woman3 woman2 woman4 woman5 woman1 
-man5 woman5 woman0 woman4 woman1 woman2 woman3 
-woman5 man2 man5 man1 man3 man4 man0 
-woman0 man1 man0 man2 man4 man3 man5 
-woman4 man5 man1 man3 man0 man4 man2 
-woman1 man1 man3 man5 man4 man0 man2 
-woman2 man3 man2 man0 man4 man1 man5 
-woman3 man2 man0 man4 man1 man5 man3 
+4 70317
+3 7615
+7 14178
+4 31277
+5 10485

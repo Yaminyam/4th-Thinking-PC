@@ -1,20 +1,9 @@
-11 20 7
-.......B.......X..X.
-d...................
-....................
-..................X.
-.XXX................
-....f.............e.
-...X..X....b........
-.X.X..c.....a.......
-....................
-......g..........X..
-.................X..
-a 62
-b 62
-c 100
-d 48
-e 98
-f 86
-g 11
-590
+3
+man0 man1 man2 
+woman0 woman1 woman2 
+man0 woman2 woman0 woman1 
+man1 woman2 woman0 woman1 
+man2 woman2 woman1 woman0 
+woman2 man0 man2 man1 
+woman1 man0 man1 man2 
+woman0 man2 man1 man0 
