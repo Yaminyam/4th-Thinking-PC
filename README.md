@@ -24,8 +24,8 @@
   3. 융합보안연구센터
   4. 핀테크보안연구센터
 
-- 수상
-대상 : kangwlgns
-금상 : zxzxs112, nub8p
-은상 : kkm1447, blessmealways00, apjojeongjin
-동상 : ays0321,	suminwow1, rantyn1121, thdud4869
+<h2> 수상
+<h3>대상 : kangwlgns
+<h3>금상 : zxzxs112, nub8p
+<h3>은상 : kkm1447, blessmealways00, apjojeongjin
+<h3>동상 : ays0321,	suminwow1, rantyn1121, thdud4869
