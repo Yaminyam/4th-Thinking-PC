@@ -30,4 +30,4 @@
 <h3>대상 : kangwlgns
 <h3>금상 : zxzxs112, nub8p
 <h3>은상 : kkm1447, blessmealways00, apjojeongjin
-<h3>동상 : ays0321,	suminwow1, rantyn1121, thdud4869
+<h3>동상 : ays0321,	suminwow1, rantyn1121, thdud4869, 99waterk
